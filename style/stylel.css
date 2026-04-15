@@ -1,0 +1,695 @@
+body {
+    background-color: rgba(21, 43, 120, 0.851);
+}
+
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+    background-image: url("../assets/achtergrond.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    margin-top: -50px
+}
+
+.h {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 18px;
+    margin-left: -35%;
+
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -55%;
+    font-size: 80px;
+}
+
+
+
+table {
+    border: 6px solid rgba(255, 0, 0, 0.937);
+    border-collapse: collapse;
+    color: rgba(0, 0, 0);
+    margin-left: 510px;
+    margin-top: 90;
+    border-color: green;
+    text-align: left;
+    width: 250px;
+    height: 50px;
+}
+
+.RealMadrid {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10%;
+    margin-left: -135px;
+}
+
+.DriehoekRM {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid goldenrod;
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.eromRM {
+
+    background-color: rgb(1, 1, 150);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.Halamadrid {
+    width: 210px;
+    height: 68px;
+    margin-left: 180px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.Galatasaray {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaismartin {
+    height: 60px;
+    width: 150px;
+    border-radius: 10%;
+    margin-left: -135px;
+}
+
+.DriehoekGala {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(251, 13, 13);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.eromgala {
+
+    background-color: rgb(231, 181, 15);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+
+.skagala {
+    width: 210px;
+    height: 68px;
+    margin-left: 60px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+
+.ManchesterUnited {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaiss {
+    height: 60px;
+    width: 60px;
+    border-radius: 10%;
+    margin-left: -135px;
+}
+
+.Driehoekmanu {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(248, 193, 29);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.erommanu {
+
+    background-color: rgb(251, 13, 13);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skamanu {
+    width: 210px;
+    height: 68px;
+    margin-left: 60px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.InterMilan {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaisinter {
+    height: 60px;
+    width: 60px;
+    border-radius: 10%;
+    margin-left: -135px;
+}
+
+.Driehoekinter {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(17, 7, 127);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.erominter {
+
+    background-color: rgb(17, 7, 127);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skainter {
+    width: 210px;
+    height: 68px;
+    margin-left: 180px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.Feyenoord {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaisfeye {
+    height: 60px;
+    width: 60px;
+    border-radius: 10%;
+    margin-left: -135px;
+}
+
+.Driehoekfeye {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(0, 0, 0);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.eromfeye {
+
+    background-color: rgb(165, 8, 8);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skafeye {
+    width: 210px;
+    height: 68px;
+    margin-left: 60px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.ParisG {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaispsg {
+    height: 60px;
+    width: 100px;
+    border-radius: 10%;
+    margin-left: -100px;
+}
+
+.Driehoekpsg {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(32, 10, 123);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.erompsg {
+
+    background-color: rgb(32, 10, 123);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skapsg {
+    width: 210px;
+    height: 68px;
+    margin-left: 60px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.Juventus {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaisjuve {
+    height: 60px;
+    width: 80px;
+    border-radius: 10%;
+    margin-left: -120px;
+}
+
+.Driehoekjuve {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(0, 0, 0);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.eromjuve {
+
+    background-color: rgb(0, 0, 0);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skajuve {
+    width: 210px;
+    height: 68px;
+    margin-left: 180px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.Liverpool {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaisliver {
+    height: 60px;
+    width: 80px;
+    border-radius: 10%;
+    margin-left: -120px;
+}
+
+.Driehoekliver {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(207, 25, 25);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.eromliver {
+
+    background-color: rgb(207, 25, 25);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skaliver {
+    width: 210px;
+    height: 68px;
+    margin-left: 60px;
+    border-radius: 10%;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.Bayern {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    border-radius: 10%;
+    margin-left: -5px;
+    margin-top: -66px;
+}
+
+.skaisbay {
+    height: 55px;
+    width: 55px;
+    border-radius: 10%;
+    margin-left: -120px;
+}
+
+.Driehoekbay {
+
+    width: 0;
+    height: 0;
+    border-right: 60px solid rgb(19, 94, 223);
+    border-bottom: 60px solid white;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: -60px;
+}
+
+.erombay {
+
+    background-color: rgb(207, 25, 25);
+    width: 210px;
+    height: 70px;
+    border-radius: 8%;
+    margin-left: -7px;
+    margin-top: -3px;
+
+
+
+}
+
+.skabay {
+    width: 210px;
+    height: 68px;
+    margin-left: 60px;
+    border-radius: 10%;
+    margin-top: -40px;
+    background-color: transparent;
+}
+
+.navi {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 0px;
+    border-bottom: 2px solid white;
+}
+
+.ska {
+    padding: 8px 15px;
+    background-color: transparent;
+    color: rgb(255, 254, 254);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ska:hover {
+    background-color: #b7aaaa;
+}
+
+h3 {
+    margin-left: 680px;
+    color: white;
+    margin-top: -10px;
+    font-size: 20px;
+
+}
+
+.leeg {
+    margin-top: 140px;
+}
+
+.select-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 16px;
+    color: #111827;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.select-wrapper select:hover {
+    border-color: #9ca3af;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 300px;
+}
+
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #f8f7f7;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+
+select:hover {
+    border-color: #ffffff;
+}
+
+
+select:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+
+select {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23666' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+.jojojo {
+    color: rgb(0, 0, 0);
+
+
+}
+
+.naamRM {
+    position: absolute;
+    color: black;
+    margin-left: 60px;
+    margin-top: -40px;
+    font-size: 14px;
+
+
+}
+
+.naamgala {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: -40px;
+    font-size: 14px;
+}
+
+.naamman {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: -40px;
+    font-size: 14px;
+}
+
+.naaminter {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: -45px;
+    font-size: 14px;
+}
+
+.naamfeye {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: -45px;
+    font-size: 14px;
+}
+
+.naamPSG {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+    margin-top: -45px;
+    font-size: 14px;
+}
+
+.naamjuve {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: -45px;
+    font-size: 14px;
+}
+
+.naamLIver {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: -45px;
+    font-size: 14px;
+}
+
+.naamBayern {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 80px;
+    margin-top: -40px;
+    font-size: 14px;
+}
+
+.ha {
+    margin-left: 300px;
+
+}

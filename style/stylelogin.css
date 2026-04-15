@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/achtergrond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    width: 300px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d6efd;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.ska {
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ska:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.RealMadrid,
+.Galatasaray,
+.ManchesterUnited,
+.InterMilan,
+.Feyenoord,
+.ParisG,
+.Juventus,
+.Liverpool,
+.Bayern {
+    background: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px auto;
+}
+
+img,
+.skaiss,
+.skaisinter,
+.skaisfeye,
+.skaispsg,
+.skaisjuve,
+.skaisliver,
+.skaisbay {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.naamRM,
+.naamgala,
+.naamman,
+.naaminter,
+.naamfeye,
+.naamPSG,
+.naamjuve,
+.naamLIver,
+.naamBayern {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    color: black;
+    font-size: 14px;
+}
+
+.eromRM {
+    background: #010196;
+}
+
+.eromgala {
+    background: gold;
+}
+
+.erommanu {
+    background: red;
+}
+
+.erominter {
+    background: #11077f;
+}
+
+.eromfeye {
+    background: #a50808;
+}
+
+.erompsg {
+    background: #200a7b;
+}
+
+.eromjuve {
+    background: black;
+}
+
+.eromliver {
+    background: #cf1919;
+}
+
+.erombay {
+    background: #cf1919;
+}
+
+.DriehoekRM,
+.DriehoekGala,
+.Driehoekmanu,
+.Driehoekinter,
+.Driehoekfeye,
+.Driehoekpsg,
+.Driehoekjuve,
+.Driehoekliver,
+.Driehoekbay {
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.signin {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 47%;
+}
+
+.signin:hover {
+    background: #0d6efd;
+}
