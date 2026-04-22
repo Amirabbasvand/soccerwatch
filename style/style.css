@@ -101,6 +101,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .Galatasaray {
@@ -150,6 +151,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .ManchesterUnited {
@@ -199,6 +201,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .InterMilan {
@@ -248,6 +251,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .Feyenoord {
@@ -297,6 +301,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .ParisG {
@@ -346,6 +351,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .Juventus {
@@ -395,6 +401,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .Liverpool {
@@ -444,6 +451,7 @@ img {
     border-radius: 10%;
     margin-top: -100px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .Bayern {
@@ -493,6 +501,7 @@ img {
     border-radius: 10%;
     margin-top: -40px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .navi {
@@ -516,7 +525,7 @@ img {
 }
 
 .ska:hover {
-    background-color: #b7aaaa;
+    background-color: #1e90ff;
 }
 
 h3 {
