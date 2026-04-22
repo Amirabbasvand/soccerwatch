@@ -37,19 +37,19 @@ if (isset($_POST['opslaan'])) {
 
 <body>
 
-    <h1>Maak account</h1>
+    <h1>Registeren</h1>
 
     <form method="post">
 
-        <label><strong>Username</strong></label><br>
-        <input type="text" name="Username" required><br><br>
+        
+        <input type="text" name="Username" required placeholder="Username"><br><br>
 
-        <label><strong>Wachtwoord</strong></label><br>
-        <input type="Password" name="Wachtwoord" required><br><br>
+        
+        <input type="Password" name="Wachtwoord" required placeholder="Wachtwoord"><br><br>
 
 
 
-        <input type="submit" name="opslaan" value="Opslaan">
+        <input type="submit" name="opslaan" value="Registeren">
     </form>
 </body>
 
