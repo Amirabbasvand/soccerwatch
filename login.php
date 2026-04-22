@@ -15,6 +15,7 @@ include "db_connect.php";
 </head>
 
 <body>
+    <h1>Login</h1>
     <form method="post">
         <input type="text" id="Username" placeholder="Username" name="Username">
         <input type="password" id="Wachtwoord" placeholder="Wachtwoord" name="Wachtwoord">
@@ -42,7 +43,7 @@ include "db_connect.php";
         ?>
 
     </form>
-    <a href="registeren.php" class="signin">Sign in</a>
+    <a href="registeren.php" class="signin">Registeren</a>
 
     
 
