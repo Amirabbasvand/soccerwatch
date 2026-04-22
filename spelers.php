@@ -12,7 +12,7 @@
     <ul class="navi">
         <li><a href="index.php"><button class="ska">Clubs</button></a></li>
         <li><a href="spelers.php"><button class="ska">Spelers</button></a></li>
-        <li><a href="toevoegen.php"><button class="ska">Vergelijken</button></a></li>
+        <li><a href="toevoegen.php"><button class="ska">Clubvergelijking</button></a></li>
         <li class="h">
             <h3>𝐒𝐎𝐂𝐂𝐄𝐑𝐖𝐀𝐓𝐂𝐇</h3>
         </li>
