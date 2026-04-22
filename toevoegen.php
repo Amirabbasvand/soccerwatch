@@ -23,17 +23,17 @@ $clubs = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <ul class="navi">
         <li><a href="index.php"><button class="ska">Clubs</button></a></li>
         <li><a href="spelers.php"><button class="ska">Spelers</button></a></li>
-        <li><a href="toevoegen.php"><button class="ska">Vergelijken</button></a></li>
+        <li><a href="toevoegen.php"><button class="ska">Clubvergelijking</button></a></li>
         <li class="h">
             <h3>𝐒𝐎𝐂𝐂𝐄𝐑𝐖𝐀𝐓𝐂𝐇</h3>
         </li>
         <li class="ha"><a href="logout.php"><button class="ska">Logout</button></a></li>
 
     </ul>
-    <h1>Vergelijk clubs</h1>
+    <h1>Clubvergelijking</h1>
 
     <form method="POST" action="vergelijk_result.php">
-        <label for="Kies">Club 1</label>
+        <label for="Kies"></label>
         <select name="Kies" id="Kies">
             <?php foreach ($clubs as $club): ?>
                 <option value="<?= $club["id"] ?>">
@@ -41,7 +41,7 @@ $clubs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </option>
             <?php endforeach; ?>
         </select>
-        <label for="Kies2">Club 2</label>
+        <label for="Kies2"></label>
         <select name="Kies2" id="Kies2">
             <?php foreach ($clubs as $club): ?>
                 <option value="<?= $club["id"] ?>">
